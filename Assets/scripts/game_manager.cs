@@ -62,6 +62,12 @@ public class game_manager : MonoBehaviour {
 		//Set doingSetup to false allowing player to move again.
 		doingSetup = false;
 	}
+
+	public void GameOver()
+	{
+		//Disable this GameManager.
+		enabled = false;
+	}
 	
 	// Update is called once per frame
 	void Update () {
